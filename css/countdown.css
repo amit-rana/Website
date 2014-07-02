@@ -1,0 +1,14 @@
+/* [7. Countdown] */
+
+#countdown                   { font-weight: bold; white-space: nowrap; margin: -20px 0 40px; }
+
+#countdown > div             { display: inline-block; margin:0 0 5px 7px; vertical-align: top;  }
+#countdown > div:first-child { margin-right: 30px; }
+#countdown > div:last-child  { border-right: 0; }
+
+#countdown span              { display: block; font-size: 80px; color:#b6c0ca; line-height: 70px; margin-left: -4px; }
+#countdown span i            { font-style: normal; }
+
+#countdown ins               {  display: block; line-height: 20px; font-size: 14px; color:#d9e0e6; text-transform: uppercase;  text-align: left; padding-left: 15px; }
+
+#countdown .csec{ width: 1px; }

@@ -1,0 +1,22 @@
+/* [5. Header] */
+
+/* logo */
+
+#logo                           { float: right; font-weight: bold; text-transform: uppercase; width: 183px; margin: auto; text-align: center; }
+#logo > a                       { color: #3f4d5b; text-decoration: none; font-size: 24px; line-height: 1; }
+#logo > a img                   { width: 183px; margin-bottom: 20px; display: none; }
+#logo > a img:last-child        { display: block; }
+#logo > a:hover img             { display: none; }
+#logo > a:hover img:first-child { display: block; }
+#logo > a span                  { margin-bottom: 5px; display: block; }
+#logo > a span:first-child{ color:#3f4d5b; }
+#logo > a span:last-child{ color:#3CB878; }
+#logo > a:hover span{ color:#3CB878; }
+
+/* menu */
+
+#menu               { float: left; margin: 0 auto 30px; position: relative; }
+#menu ul            { list-style: none; font-size: 16px; font-weight: bold; text-transform: uppercase; display: none; position: absolute; left: 0; top: 35px; }
+#menu ul li         { line-height: 1; margin: 0 0 10px 0; }
+#menu ul li a       { text-decoration: none; color:#3f4d5b; }
+#menu ul li a:hover { color:#3cb878; }

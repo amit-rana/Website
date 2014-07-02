@@ -1,0 +1,17 @@
+/* [6. Icons] */
+
+[class^="ico-"] { background-image: url(../images/icons.png); background-repeat: no-repeat; display:inline-block; position: relative; }
+
+.ico-map-close          { width:27px; height:27px; background-position:-5px -5px; top: 8px; }
+a:hover .ico-map-close  { background-position:-3px -62px; }
+
+.ico-menu       { width:20px; height:15px; background-position:-5px -42px; }
+.ico-menu:hover { background-position:-63px -42px; }
+
+.ico-menu-close,
+.toggle.open
+.ico-menu                   { width:15px; height:15px; background-position:-42px -5px; }
+.ico-menu-close:hover,
+.toggle.open .ico-menu:hover{ background-position:-42px -30px; }
+
+.ico-tip-close  { width:16px; height:16px; background-position:-67px -5px; }

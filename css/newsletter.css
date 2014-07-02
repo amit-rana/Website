@@ -1,0 +1,15 @@
+/* [11. Newsletter] */
+
+/* Feedform */
+
+#feedback-form form{ display: block !important; font-family: 'Open Sans', sans-serif; height: 125px !important; }
+
+#feedback-form .validatr-message    { font-size: 17px; line-height: 26px; color:#ce3851 !important; background-color: transparent !important; border-radius: 0 !important; border: 0 !important; height: 50px;   width: 480px; padding: 0 !important; text-align: center; }
+
+#feedback-form .success-block       { font-size: 17px; line-height: 26px; color:#3cb878; height: 50px; padding-bottom: 10px;   max-width: 450px; margin: -10px auto 10px; }
+#feedback-form .success-block a     { color:#f2dca1; }
+#feedback-form .success-block .error{ color:#ce3851; }
+
+
+#feedback-form input[type="email"] 		{ padding: 0 2%; height: 50px; background-color: #E2E2E2; border-radius: 3px; font-size: 17px; color:#3f4d5b; width: 96%; max-width: 460px; display: block; margin: 0 auto 23px;  border: 0; font-family: 'Open Sans', sans-serif; position: relative; text-align: center; }
+#feedback-form .btn                     { height: 45px; line-height: 45px; }

@@ -1,0 +1,69 @@
+/* [Green Theme] */
+
+/* Preloader and general styles */
+body.loading    { background-image: url(../images/preloader.gif); }
+body            { background-color: #f5f5f5; color: #3f4d5b; }
+
+/* Links color */
+a           { color:#3f4d5b; text-decoration: none; }
+a:hover     { color:#3cb878 !important; }
+
+/* Button styles */
+.btn        {background-color: #3CB878;  border-bottom: 5px solid #339D66; }
+.btn:hover  { background-color: #4BC988; }
+
+/* links color into paragraphs */
+#content p a        { color:#3cb878; }
+#content p a:hover  { color:#7bd4a6 !important; }
+
+/* logo styles */
+#logo > a span:first-child{ color:#3f4d5b; }
+#logo > a span:last-child{ color:#3CB878; }
+#logo > a:hover span{ color:#3CB878; }
+
+/* Main menu links style */
+#menu ul li a       { color:#3f4d5b; }
+#menu ul li a:hover { color:#3cb878; }
+
+/* Countdown styles */
+#countdown span              { color:#b6c0ca; }
+#countdown ins               { color:#d9e0e6; }
+
+/* Calendar styles */
+.calendar           { background-color:#3CB878; }
+.calendar i         { background-color:#3CB878; }
+.calendar:before    { border-top: 70px solid #7BD4A6; }
+.calendar:after     { border-bottom: 70px solid #339D66; }
+
+/* Panorama image */
+#panorama		{ background-image:url(../panorama/panorama.jpg); }
+
+/* face overlay background-color */
+.team-list li.face div.overlay{ background-color: #3CB878; }
+
+/* copyrights color */
+.copyrights, .copyrights > a         { color:#d9d9d9; }
+
+/* feedback input styles */
+#feedback-form input[type="email"] 		{ background-color: #E2E2E2; color:#3f4d5b; }
+#feedback-form input[type="email"]::-webkit-input-placeholder { color:#cccccc; }
+#feedback-form input[type="email"]::-moz-placeholder { color:#cccccc; }
+
+/* Infobox corner background-color */
+.map-box:after  { border-top: 31px solid #339D66; }
+
+/* Contacts styles */
+#contact-map .ib-inner > article     		{  background-color: #339D66; }
+#contact-map .ib-inner > article a   		{ color:#91f1bf; }
+#contact-map .ib-inner > article a:hover	{ color:#7bd4a6; }
+
+/* map close links styles */
+.mclose { background-color: #3CB878; }
+
+/* change url to theme icons */
+[class^="ico-"] { background-image: url(../images/icons.png); }
+.mapbox-close 	{ background-image: url(../images/icons.png); }
+
+/* Mapmarker images */
+.mmarker{ background-image: url(../images/mapmarker.png); }
+.mmarker-h{ background-image: url(../images/mapmarker-h.png); }

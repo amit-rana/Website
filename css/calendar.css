@@ -1,0 +1,9 @@
+/* [8. Calendar] */
+
+.calendar           { margin:0 auto 130px; width:200px; padding: 15px 0 0 30px; height: 176px; background-color:#3CB878; display:block; position:relative; border-radius:5px 5px 0 0; color:#fff; font-weight: bold; text-align: left; font-size: 50px; }
+.calendar i         { position: absolute; bottom:-69px; left: 0; background-color:#3CB878; display: block; width:161px; height:69px; border-radius:0 0 0 5px; }
+.calendar:before    { content:' '; position:absolute; width: 0; right: 0; bottom: -69px; height: 0; border-top: 70px solid #7BD4A6; border-right: 70px solid transparent; }
+.calendar:after     { content:' '; position: absolute; right:69px; bottom:-69px; width: 0; height: 0; border-bottom: 70px solid #339D66; border-left: 70px solid transparent; }
+.calendar ins       { font-size: 133px; line-height: 1; }
+.calendar span      { display: block; text-transform: uppercase; font-size: 24px; line-height: 1; font-weight: bold; margin-bottom: 14px; }
+.calendar em        { font-style: normal; font-weight: bold; font-size: 36px; display: block; position: relative; z-index: 2; }

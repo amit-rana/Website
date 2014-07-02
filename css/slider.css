@@ -1,0 +1,7 @@
+/* [4. Slider] */
+
+#slides                                 { position: fixed; z-index: 0; left: 0; top: 0; }
+
+#slides .slides-container               { display: none; }
+#slides .slides-container > div:after  { background: url(../images/pattern.png) 0 0 repeat; left: 0; content: ""; height: 100%; position: absolute; width: 100%; z-index: 3; opacity: 1; }
+#slides .slides-container > div:before   { background-color: #fff; opacity: 0; left: 0; content: ""; height: 100%; position: absolute; width: 100%; z-index: 3; }

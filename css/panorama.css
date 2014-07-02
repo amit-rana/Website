@@ -1,0 +1,8 @@
+/* [13. Panorama] */
+
+#panorama		{
+    background-image:url(../panorama/panorama.jpg); background-repeat: repeat-x; background-position: top left;
+    position: fixed; z-index: 0; top: 0; left: 0; min-width: 100%; min-height: 100%; background-size: cover; }
+
+#panorama:after  { background: url(../images/pattern.png) 0 0 repeat; left: 0; content: ""; height: 100%; position: absolute; width: 100%; z-index: 3; opacity: 0.5; }
+#panorama:before   { background-color: #fff; opacity: 0; left: 0; content: ""; height: 100%; position: absolute; width: 100%; z-index: 3; }

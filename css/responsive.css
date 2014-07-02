@@ -1,0 +1,53 @@
+/* [14. Responsive ] */
+
+/* if WIDTH < 690px */
+
+@media only screen and (max-width: 690px) {
+
+    #team .calendar { float: none; margin: 0 auto 69px; }
+    .team-list      { width: 230px; }
+
+    #header { max-width: 230px; position: relative; }
+
+    #logo   { float: none; margin-bottom: 60px; padding-right: 3px; }
+
+    #menu       { float: none; text-align: center; }
+    #menu ul    { position: static; margin-top: 35px; width: auto; }
+    #menu ul li    { float: none; margin-right: 0; }
+
+    #countdown > div:first-child    { display: block; margin-right: 0; margin-bottom: 15px; }
+    #countdown > div:first-child ins    { text-align: center; }
+
+
+}
+
+/* if WIDTH < 480px */
+
+@media only screen and (max-width: 480px) {
+
+    .content p   { padding: 0 20px; }
+
+    .mclose { left: 50%; margin-left: -25px; }
+
+    #feedback-form input[type="email"] { width: 90%; }
+
+    .map-box > img  { top: 274px; }
+    .map-box        { width: 230px !important; }
+
+    #contact-map .calendar  { display: none; }
+
+    #countdown > div:first-child    {  margin-bottom: 0; }
+    #countdown span                 { font-size: 70px; line-height: 70px; }
+
+}
+
+/* if WIDTH < 340px */
+
+@media only screen and (max-width: 340px) {
+
+    #countdown{ margin-bottom: 30px; }
+    #countdown span                 { font-size: 60px; line-height: 60px; }
+    #countdown > div:first-child    { margin-bottom: 0; }
+    #countdown ins                  { font-size: 12px; padding-left: 5px; }
+
+}
